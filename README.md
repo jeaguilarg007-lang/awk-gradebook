@@ -1,15 +1,15 @@
 # AWK Gradebook
 
-**Nombre:** Jorge Aguilar
-**Curso:** Segundo Semestre
-**Paralelo:** C
+**Name:** Jorge Aguilar
+**Course:** Second Semester
+**Section:** C
 
-## Tareas
+## Tasks
 
-* Task 1: Contar el número total de entregas del archivo excluyendo el encabezado.
-* Task 2: Contar la cantidad de estudiantes distintos utilizando arreglos asociativos.
-* Task 3: Generar un reporte con las notas del examen FINAL formateadas con `printf`.
-* Task 4: Contar las entregas reprobadas (menos del 60% del puntaje máximo).
-* Task 5: Elaborar un reporte por actividad mostrando puntaje mínimo, máximo y promedio.
-* Task 6: Calcular el porcentaje total y la calificación en letra de cada estudiante.
-* Task 7: Crear un script Bash que ejecute el programa AWK y ordene la salida alfabéticamente.
+* Task 1: Count the total number of submissions in the file, excluding the header.
+* Task 2: Count the number of distinct students using associative arrays.
+* Task 3: Generate a report with the FINAL exam scores formatted with `printf`.
+* Task 4: Count the failing submissions (below 60% of the maximum score).
+* Task 5: Create a report for each assignment showing the minimum, maximum, and average scores.
+* Task 6: Calculate the overall percentage and letter grade for each student.
+* Task 7: Create a Bash script that runs the AWK program and sorts the output alphabetically.
