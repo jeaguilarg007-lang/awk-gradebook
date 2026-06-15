@@ -1,3 +1,4 @@
+#!/bin/bash
 ## Task 1
 
 Command:
@@ -120,3 +121,31 @@ Two associative arrays indexed by the student name are used to store the total p
 
 Script:
 task6.awk
+
+## Task 7
+
+Command:
+./run.sh Lab03-data.csv
+
+Result:
+Name       Percent    Grade
+Andrew        73.69      C
+Ava           81.43      B
+Chelsey       62.65      D
+Diana         62.08      D
+Eliza         84.16      B
+Jackson       78.64      C
+Kenji         86.45      B
+Lucia         89.53      B
+Maria         79.57      C
+Noah          63.08      D
+Priya         71.04      C
+Sam           72.90      C
+Shane         93.12      A
+Tomas         82.22      B
+
+Explanation:
+The Bash script takes a filename as an argument, runs the Task 6 AWK script, removes the header from the output, sorts the student records alphabetically, and prints the header at the top.
+
+Script:
+run.sh

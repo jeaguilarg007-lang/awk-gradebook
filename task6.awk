@@ -1,3 +1,4 @@
+#!/bin/bash
 # Jorge Aguilar
 # Second Semester C
 # Task 6: Per-student grade report

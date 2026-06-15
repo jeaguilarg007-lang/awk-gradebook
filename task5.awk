@@ -1,3 +1,4 @@
+#!/bin/bash
 # Jorge Aguilar
 # Second Semester C
 # Task 5: Per-assignment report
