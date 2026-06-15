@@ -43,3 +43,15 @@ Chelsey    142
 
 Explanation:
 The condition $3=="FINAL" selects only the FINAL assignment records. The printf statement formats the output with the student name left-justified in 10 spaces and the score right-justified in 3 spaces.
+
+
+## Task 4
+
+Command:
+awk 'NR>1 && $4 < 0.6*$5 {count++} END {print count}' Lab03-data.csv
+
+Result:
+50
+
+Explanation:
+The condition NR>1 skips the header line. The expression $4 < 0.6*$5 checks whether the score is below 60% of the maximum points for that assignment. Each failing submission is counted, and the END block prints the total number of failing submissions.
